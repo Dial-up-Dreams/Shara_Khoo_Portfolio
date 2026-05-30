@@ -153,7 +153,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("Projects/TA-UI/ThinkAble-AdminHome.png");
+  background-image: url("TA-UI/ThinkAble-AdminHome.png");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
@@ -167,7 +167,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("Projects/Project_Image/LJ-Website.png");
+  background-image: url("Project_Image/LJ-Website.png");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
@@ -181,7 +181,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("Projects/Project_Image/Fit-UI.png");
+  background-image: url("Project_Image/Fit-UI.png");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
@@ -195,7 +195,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("Projects/Project_Image/Logo-Design.png");
+  background-image: url("Project_Image/Logo-Design.png");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
@@ -209,7 +209,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("Projects/Project_Image/Escaperoom-Panorama.png");
+  background-image: url("Project_Image/Escaperoom-Panorama.png");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
@@ -223,7 +223,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("Projects/Blender/blenderCA.png");
+  background-image: url("Blender/blenderCA.png");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
@@ -237,7 +237,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("Projects/Photography/edited-photos/portrait1.jpg");
+  background-image: url("Photography/edited-photos/portrait1.jpg");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
@@ -251,7 +251,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("Projects/my-art/atlas-render.jpeg");
+  background-image: url("my-art/atlas-render.jpeg");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
