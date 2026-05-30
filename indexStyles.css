@@ -167,7 +167,7 @@ html body p {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("/rojects/Project_Image/LJ-Website.png");
+  background-image: url("Projects/Project_Image/LJ-Website.png");
   background-size: cover;
   background-color: #373f51;
   background-blend-mode: screen;
