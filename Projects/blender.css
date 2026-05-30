@@ -1,0 +1,232 @@
+body {
+    background-color: #E1DBC9;
+    margin: 0;
+    padding: 0;
+     }
+     
+     h1 {
+        color: #3C3C3C;
+        font-family: Helvetica, sans-serif;
+        font-size: 40px;
+        text-align: center;
+     }
+
+     h2{
+        color: #3C3C3C;
+        font-family: Helvetica, sans-serif;;
+        text-align: center;
+     }
+
+     h3 {
+    color: #3C3C3C;
+    font-family: Helvetica, sans-serif;
+}
+
+            .navbar {
+                overflow:hidden;
+                background-color: #5E4B4B;
+                font-family: Helvetica, sans-serif;
+                display: flex;
+                justify-content: flex-end;
+                padding: 14px;
+                margin: 0;
+            }
+
+            .navbar a{
+                font-size: 16px;
+                color: #E1DBC9;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Helvetica, sans-serif;
+            }
+
+            .dropdown{
+                overflow: hidden;
+              
+            }
+
+            .dropdown .dropbtn{
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: #E1DBC9;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }      
+            
+            .navbar a:hover, .dropdown:hover .dropbtn {
+                color: #b39292;
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: #5E4B4B;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a{
+                float: none;
+                color: #E1DBC9;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                font-family:'Helvetica';
+            }
+
+            .dropdown-content a:hover{
+                color: #b39292;
+            }
+
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+    /* image css */
+
+ section.wrapper {
+  width: 100%;
+}
+ 
+.photo-gallery__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-gallery__wrapper div {
+  height: 100px;
+  overflow: hidden;
+}
+
+.image-holder {
+  height: 50%;
+  width: 50%;
+  overflow:hidden;
+  margin: 0 auto;
+}
+
+.image-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+  object-position: 50% 50%;
+}
+
+.image-thumbnail img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  transition: transform 0.35s;
+  transform: scale(1);
+  filter: grayscale(1);
+}
+
+.image-thumbnail img.active {
+  filter: none;
+}
+
+.image-thumbnail img:hover {
+  transition: transform 0.35s, filter 0.35s linear;
+  transform: scale(1.12);
+  filter: none;
+}
+
+/* second */
+
+.photo-gallery__wrapper2 {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+section.wrapper2 {
+  width: 100%;
+}
+
+.photo-gallery__wrapper2 div {
+  height: 100px;
+  overflow: hidden;
+}
+
+.image-holder2 {
+  height: 50%;
+  width: 50%;
+  overflow:hidden;
+  margin: 0 auto;
+}
+
+.image-holder2 img {
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+  object-position: 50% 50%;
+}
+
+.image-thumbnail2 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  transition: transform 0.35s;
+  transform: scale(1);
+  filter: grayscale(1);
+}
+
+.image-thumbnail2 img.active {
+  filter: none;
+}
+
+.image-thumbnail2 img:hover {
+  transition: transform 0.35s, filter 0.35s linear;
+  transform: scale(1.12);
+  filter: none;
+}
+
+video{
+     width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center
+}
+
+footer {
+            background-color: #6B7B84;
+            display: flex;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            justify-content: center;
+        }
+
+.program-used {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  flex-wrap: wrap;
+  
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
